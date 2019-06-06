@@ -1,0 +1,117 @@
+.header {
+  position: absolute;
+  z-index: 9999;
+  font-size: 1.2em;
+}
+
+.header ul {
+  width: 100%;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header a:hover {
+  color: #5d5ff3;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url("../images/item1.jpg");
+  background-size: cover;
+}
+
+.s1 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4em;
+}
+
+.s2 {
+  background: url("../images/item2.jpg");
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: right;
+  margin-right: 2em;
+  font-size: 4em;
+}
+
+.s3 {
+  background: url("../images/item3.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+span {
+  background-color: white !important;
+}
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 2em !important;
+}
+
+.sl1 {
+  background: url("../images/slide/slide1.jpg");
+  background-size: cover;
+}
+
+.sl1 h1 {
+  margin-bottom: 30%;
+  font-size: 5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sl2 {
+  background: url("../images/slide/slide2.jpg");
+  background-size: cover;
+}
+
+.sl2 h1 {
+  text-align: center;
+  opacity: 0.5;
+  filter: Alpha(opacity=50);
+}
+
+.sl3 {
+  background: url("../images/slide/slide3.jpg");
+  background-size: cover;
+}
+
+.fp-controlArrow.fp-next {
+  margin-top: 15% !important;
+  border-width: 20.2px 0 20.2px 24px !important;
+  opacity: 0.5;
+  filter: Alpha(opacity=50);
+}
+
+.fp-controlArrow.fp-prev {
+  margin-top: 15% !important;
+  border-width: 20.2px 24px 20.2px 0 !important;
+  opacity: 0.5;
+  filter: Alpha(opacity=50);
+}
+/*# sourceMappingURL=style.css.map */
